@@ -1,0 +1,3 @@
+[submodule "preprocessing/rte-rrtmgp"]
+	path = preprocessing/rte-rrtmgp
+	url = https://github.com/helgehr/rte-rrtmgp.git
