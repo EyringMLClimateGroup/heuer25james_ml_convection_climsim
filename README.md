@@ -33,7 +33,7 @@ git submodule update --init --recursive
 - Many of these online evaluations use the [ESMValTool](https://github.com/ESMValGroup/ESMValTool) as a basis
 
 ## Data
-All data used in the study is publicly available at [huggingface](https://huggingface.co/datasets/LEAP/ClimSim_high-res). More details about the data can be found [here](https://arxiv.org/abs/2306.08754)
+All training data used in the study is publicly available at [huggingface](https://huggingface.co/datasets/LEAP/ClimSim_high-res). More details about the data can be found [here](https://arxiv.org/abs/2306.08754).
 
 ## Dependencies
 - Xarray
