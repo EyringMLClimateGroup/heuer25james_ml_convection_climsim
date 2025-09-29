@@ -7,6 +7,8 @@ The corresponding paper is available as a preprint on arXiv
 
 Corresponding DOI:
 
+[![DOI](https://zenodo.org/badge/1052597208.svg)](https://zenodo.org/badge/latestdoi/1052597208)
+
 We adapted the model and parts of the training pipeline from the [leap-climsim-kaggle-5th repository](https://github.com/YusefAN/leap-climsim-kaggle-5th), which presents a solution that achieved 5th place in the 2024 [ClimSim Kaggle competition](https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/overview).
 
 After cloning, initialize submodules with:
