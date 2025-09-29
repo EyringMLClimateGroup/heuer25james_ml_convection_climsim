@@ -36,12 +36,15 @@ git submodule update --init --recursive
 All training data used in the study is publicly available at [huggingface](https://huggingface.co/datasets/LEAP/ClimSim_high-res). More details about the data can be found [here](https://arxiv.org/abs/2306.08754).
 
 ## Dependencies
-- Xarray
-- Numba
+All used dependencies can be found in the `env.yml` file and can be installed with mamba/conda using the command: `conda env create --name <your_env_name> --file=env.yml`. 
+
+The main Dependencies included are:
 - PyTorch
 - PyTorch Lightning
 - Scikit-learn
-- Ray
-- Dask
+- Xarray
 - Netcdf4
-- Other packages like numpy, matplotlib, pandas, and tqdm
+- Dask
+- Ray
+- Numba
+- Other packages like Numpy, Matplotlib, Pandas, and Tqdm
