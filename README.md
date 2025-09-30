@@ -30,12 +30,14 @@ git submodule update --init --recursive
 - `preprocessing/normalize_data_v5expandcnv.ipynb` for normalization of the data
 - `preprocessing/normalization` contains normalization constants
 ### [online_evaluation](online_evaluation): contains various notebooks to create the figures used in the manuscript
-- for the online-coupling of the ML models we used the Ftorch library (https://github.com/Cambridge-ICCS/FTorch)
-- Contains various notebooks for analyzing the coupled online runs
-- Many of these online evaluations use the [ESMValTool](https://github.com/ESMValGroup/ESMValTool) as a basis
 
-## Data
+- Contains various notebooks for analyzing the coupled online runs
+- Many of these online evaluations use the processed files created by the [ESMValTool](https://github.com/ESMValGroup/ESMValTool)
+
+## Data and Coupling
 All training data used in the study is publicly available at [huggingface](https://huggingface.co/datasets/LEAP/ClimSim_high-res). More details about the data can be found [here](https://arxiv.org/abs/2306.08754).
+
+For the online-coupling of the ML models we used the Ftorch library (https://github.com/Cambridge-ICCS/FTorch)
 
 ## Dependencies
 All used dependencies can be found in the `env.yml` file and can be installed with mamba/conda using the command: `conda env create --name <your_env_name> --file=env.yml`. 
