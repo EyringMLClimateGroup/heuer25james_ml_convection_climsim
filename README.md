@@ -3,7 +3,7 @@
 This repository contains the code for the developement of data-driven convection parameterizations based on the NARVAL data set for ICON-A
 
 The corresponding paper is available as a preprint on arXiv
-> ...
+> Heuer, H., Beucler, T., Schwabe, M., Savre, J., Schlund, M., & Eyring, V. (2025). Beyond the Training Data: Confidence-Guided Mixing of Parameterizations in a Hybrid AI-Climate Model. https://doi.org/10.48550/arXiv.2510.08107
 
 Corresponding DOI:
 
