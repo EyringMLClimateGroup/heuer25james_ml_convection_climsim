@@ -1,6 +1,6 @@
 # Beyond the Training Data: Confidence-Guided Mixing of Parameterizations in a Hybrid AI-Climate Model
 
-This repository contains the code for the developement of data-driven convection parameterizations based on the NARVAL data set for ICON-A
+This repository provides the code for developing, training, and evaluating data-driven atmospheric convection parameterizations for the ICON-A model. Utilizing the [ClimSim dataset](https://leap-stc.github.io/ClimSim/README.html) and a BiLSTM neural network architecture, this project explores the creation of a robust hybrid AI-climate model. A core focus of the codebase is the implementation of a novel confidence-guided mixing strategy, which dynamically blends machine learning predictions with traditional physics-based parameterizations to maintain model stability when encountering out-of-distribution atmospheric states.
 
 The corresponding paper is available as a preprint on arXiv
 > Heuer, H., Beucler, T., Schwabe, M., Savre, J., Schlund, M., & Eyring, V. (2025). Beyond the Training Data: Confidence-Guided Mixing of Parameterizations in a Hybrid AI-Climate Model. https://doi.org/10.48550/arXiv.2510.08107
